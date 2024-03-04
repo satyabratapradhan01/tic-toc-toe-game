@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #355691;
+}
+
+.contener {
+    height: 600px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game { 
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 140px;
+    width: 160px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 0.1px;
+    background-color: whitesmoke;
+    font-size: 80px;
+    font-style: oblique;
+
+}
+
+.reset {
+    border: 2px solid black;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satya{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+}
+
+.msg-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.new-btn{
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.msg{
+    padding: 20px;
+    color: green;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 90vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 5vmin;
+}
+
+.hide{
+    display: none;
+}
